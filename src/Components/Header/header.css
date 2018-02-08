@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+header * {
+	overflow: hidden;
+}
+
+header {
+	overflow: hidden;
+	position: fixed;
+	display: flex;
+	align-items: flex-end;
+	height: 7rem;
+	width: 100%;
+	max-width: 100vw;
+	z-index: 1;
+	background-color: rgba(235,235,235,.95);
+}
+
+.title-container {
+	float: left;
+	padding: 0 10%;
+	white-space: nowrap;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5%;
+	width: 7rem;
+	height: auto;
+}
+
+.sun-effect {
+	position: absolute;
+	background-color: rgba(255,255,0,1);
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+  animation: pulsing 1s alternate infinite;
+  background-color: rgba(255,255,255,.75);
+  border: none;
+}
+
+.overlay {
+margin-left: -100%;
+	z-index: 2;
+}
+
+@keyframes pulsing {
+  from {  box-shadow: 0px 0px 1.5vw 1.5vw rgba(255,255,0,.75) inset; } 
+  to { box-shadow: 0px 0px 1.5vw .2vw rgba(255,255,0,.75) inset; } 
+}
+header img {
+	width: 7rem;
+	position: relative;
+}
+
+header h1 {
+	width: 100%;
+	font-size: 3.5rem;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding-right: 3rem;
+	height: 4rem;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.intro h3 {
+	display: block;
+	font: 2rem georgia bold;
+}
+
+.intro h5 {
+	display: block;
+	font: 1.25rem georgia bold;
+}

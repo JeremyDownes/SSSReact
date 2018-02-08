@@ -1,0 +1,23 @@
+.presentation {
+	min-height: 80vh;
+}
+
+section h1 {
+	padding-left: 5rem;
+	background-color: rgb(210,210,210)
+}
+
+section h2 {
+	padding: 2rem 0;
+	width: 75%;
+	margin: auto;
+	font-size: 2rem;
+}
+
+section p {
+	text-indent: 2rem;
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	line-height: 1.5rem;
+}

@@ -1,0 +1,32 @@
+.intro {
+	padding-top: 6.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	text-align: left;
+}
+
+.jumbotron {
+	border-top: 1px solid black;
+	margin: 1rem;
+	background-image: url("../../resources/images/girl.jpeg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	max-width: 100vw;
+	min-height: 80vh;
+}
+
+.jumbotron div {
+	display: flex;
+	justify-content: center;
+}
+
+.jumbotron p {
+	margin-left: 5rem;
+	line-height: 2.25rem;
+	margin-top: 1rem;
+	font-size: 2rem;
+	white-space: nowrap;
+}
