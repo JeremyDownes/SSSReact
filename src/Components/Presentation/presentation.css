@@ -1,17 +1,29 @@
 .presentation {
 	min-height: 80vh;
+	background-image: url('../../resources/images/automation.jpeg');
+	background-size: 50rem auto;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 section h1 {
 	padding-left: 5rem;
-	background-color: rgb(210,210,210)
+	background-color: rgb(210,210,210);
+}
+
+.slideleft {
+	animation: slideLeft 4s linear 2s;
+	animation-fill-mode: forwards
 }
 
 section h2 {
+	background-color: rgba(210,210,210,.5);
 	padding: 2rem 0;
-	width: 75%;
+	width: 50rem;
 	margin: auto;
-	font-size: 2rem;
+	font-size: 200%;
+	line-height: 2.5rem;
+	text-align: center;
 }
 
 section p {
@@ -20,4 +32,15 @@ section p {
 	width: 50%;
 	text-align: left;
 	line-height: 1.5rem;
+}
+
+@keyframes slideLeft{
+	from{}
+	to{font-size: 5px;
+		height: 2.1rem;
+		width: 0px;
+		line-height: 0px;
+		padding: 0px;
+		color: rgba(255,255,255,0);
+	}
 }

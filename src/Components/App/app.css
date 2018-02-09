@@ -1,5 +1,6 @@
 
 body {
+	overflow-x: hidden;
 	background-color: rgb(230,230,230);
 	box-sizing: border-box;
 	width: 100%;
