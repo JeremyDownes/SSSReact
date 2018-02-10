@@ -1,9 +1,24 @@
 import React from 'react'
+import TypeText from '../TypeText/TypeText'
 
 class Slide extends React.Component {
+
+	assembleSlide () {
+		if(this.props.slide.h2) {
+			return <TypeText message={this.props.slide.h2} />
+		}
+		if(this.props.slide.p){
+			return<p>{this.props.slide.p}</p>
+		}
+	}
+
 	render() {
+		let slide = this.assembleSlide()
+		console.log(slide)
 		return(
-			<p>Our automation integration service begin with an in depth consultation with one of our Solutions Engineers. Over the course of several observation sessions and interviews with you and your critical staff we will develop a strategy for implementing our technologies and those of our trusted industry leading partners in order to best serve to streamline and automate your workflow. Our solutions are ROI oriented. We are not salespeople and will not push to implement technologies that are not proven to bring value.</p>
+			<div className='presentation' style={{backgroundImage: 'url('+this.props.slide.imgSrc+')'}}>
+			{slide}
+			</div>
 		)
 	}
 }
