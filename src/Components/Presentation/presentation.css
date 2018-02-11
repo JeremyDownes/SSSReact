@@ -18,8 +18,8 @@ section h1 {
 
 section h2 {
 	background-color: rgba(210,210,210,.5);
-	padding: 2rem 0;
-	width: 50rem;
+	padding: 2rem;
+	width: 47rem;
 	margin: auto;
 	font-size: 200%;
 	line-height: 2.5rem;
@@ -27,7 +27,7 @@ section h2 {
 }
 
 section p {
-	background-color: rgba(210,210,210,.5);
+	background-color: rgba(210,210,210,.7);
 	font-size: 1.5rem;
 	text-indent: 2rem;
 	margin: auto;
@@ -35,6 +35,7 @@ section p {
 	width: 50%;
 	text-align: left;
 	line-height: 1.75rem;
+	padding: 0 .5rem;
 }
 
 @keyframes slideLeft{

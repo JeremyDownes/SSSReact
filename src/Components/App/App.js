@@ -12,7 +12,7 @@ class App extends React.Component {
 	constructor(props) {
 		super(props) 
 		this.probablyMobile = window.innerHeight > window.innerWidth ? true : false
-		this.state= {section: Slides.PSA}
+		this.state= {section: Slides.aboutUs}
 		this.changeSection = this.changeSection.bind(this)
 	}
 
