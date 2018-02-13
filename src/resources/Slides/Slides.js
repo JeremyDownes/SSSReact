@@ -2,15 +2,13 @@ export const slides = {
 
 	aboutUs: {h1: 'A Human Technology Company', slides:
 	[
-		{h2: 'Exceptional service is our business model', imgSrc: require('../../resources/images/automation.jpeg')},
+		{h2: 'Exceptional service is our business model', imgSrc: require('../../resources/images/team.jpg')},
  		{p: 'We at Sunshine State Software break with many of the trends in tech.We are hands on, working with clients face to face when needed.', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'We care about our products and our clients and are commited to delivering the best, simplest, most trouble free software solutions, individually tailored to each of our clients unique needs.', imgSrc: require('../../resources/images/second-consult.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'We care about our products and our clients and are commited to delivering the best, simplest, most trouble free software solutions, individually tailored to each of our clients unique needs.', imgSrc: require('../../resources/images/face-to-face-business-meeting.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
 		{p: "We will never push product that we don't sincerly believe to be warranted and in the best interests of our clients.", imgSrc: require('../../resources/images/not-sale.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'We respect our clients data and their privacy. We do not collect metrics for our own purposes nor do we advertise our affiliation with your company or organization.', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'While we do consider ourselves a disruptive tech company we feel it is for all the right reasons. The era of working quickly and breaking things is at an end. Our goal instead is to work mindfully and efficiently and maintaining a cohesive strategy for our clients digital presence.', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'Our hope is that in all of your dealings with our company we will project these principles in such a way that you are assured to recieve the greatest possible value from our products and solutions.', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'We endeavor to project a confidence and maturity by employing experienced and seasoned professionals in every position within our organization. ', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'We feel that this level of professionalism will inspire in our clients a mutually beneficial sense of trust. We want to be the company that has your back.', imgSrc: require('../../resources/images/consultation.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'We respect our clients data and their privacy. We do not collect metrics for our own purposes nor do we advertise our affiliation with your company or organization.', imgSrc: require('../../resources/images/Safe.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'While we do consider ourselves a disruptive tech company we feel it is for all the right reasons. The era of working quickly and breaking things is at an end. Our goal instead is to work mindfully and efficiently and maintaining a cohesive strategy for our clients digital presence.', imgSrc: require('../../resources/images/teddy.png'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'Our hope is that in all of your dealings with our company we will project these principles so our clients are assured to recieve the greatest possible value from our products and services.', imgSrc: require('../../resources/images/business-handshake.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
 	]},
 
 	PSA: {h1: 'Automation Services', slides:
@@ -46,9 +44,9 @@ export const slides = {
 		{h2: 'Sometimes appearances matter more than others', imgSrc: require('../../resources/images/appearances.jpg')},
  		{p: 'One thing all the most successful organizations have in common is top-level branding.', imgSrc: require('../../resources/images/brand.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
 		{p: 'All aspects of your branding down to the colors and fonts can be made to work together to form a single cohesive image of your organization in the minds of the public.', imgSrc: require('../../resources/images/brands.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'Our marketing and design professionals and our partners are masters at knowing how seemingly subtle changes to these aspects can affect the way that consumers view your brand.', imgSrc: require('../../resources/images/street_ad.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
-		{p: 'We can design anything from a simple corporate logo to a bottom-up multi-tiered multimedia marketing strategy.', imgSrc: require('../../resources/images/not-sale.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'Our marketing and design professionals and partners are masters at knowing how seemingly subtle changes to these aspects can affect the way that consumers view your brand.', imgSrc: require('../../resources/images/street_ad.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
 		{p: 'Consistency is key and we will help ensure that the marketing across all of the platforms you chose conveys a consistent message about your brand.', imgSrc: require('../../resources/images/consistent.png'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
+		{p: 'We can design anything from a simple corporate logo to a bottom-up multi-tiered multimedia marketing strategy.', imgSrc: require('../../resources/images/not-sale.jpg'), style: {backgroundColor: 'rgba(230,230,230,.8)'}},
 	]},
 
 	DSC: {h1: 'Digital Strategy Consultations', slides:
