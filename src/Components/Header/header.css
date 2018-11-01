@@ -13,7 +13,7 @@ header {
 	width: 100%;
 	max-width: 100vw;
 	z-index: 1;
-	background-color: rgba(235,235,235,.95);
+	background-color: rgba(225,225,255,.95);
 }
 
 .title-container {

@@ -4,9 +4,10 @@ body {
 	background-color: rgb(230,230,230);
 	box-sizing: border-box;
 	width: 100%;
-	background-image: url("../../resources/images/background.jpg");
+	background-image: url("../../resources/images/gradient.png");
 	background-repeat: no-repeat;
-	background-size: 4000vh;
+	background-size: 1000vh;
+	background-color: #dfdfff;
 }
 
 section:not(.intro) {
